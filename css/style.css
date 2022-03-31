@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.recording{
+    display: flex;
+}
+
+.header-left, .header-right{
+    display: flex;
+    color: white;
+    padding: 5px;
+    column-gap: 10px;
+}
+
+.security{
+    color: green;
+}
+
+.recording{
+    color: red;
+}
+
+.container{
+    height: calc(100vw - 20px);
+    background-color: beige;
+    display: flex;
+}
+
+.col{
+    width: calc(100% / 6);
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
+    
+}
+
+
