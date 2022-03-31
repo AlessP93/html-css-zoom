@@ -22,7 +22,7 @@ header{
     column-gap: 10px;
 }
 
-.security{
+.norton{
     color: green;
 }
 
@@ -31,22 +31,22 @@ header{
 }
 
 .container{
-    /* height: calc(100vw - 20px); */
+    height: 90vh;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
     justify-content: center;
+    align-content: flex-start;
 }
 
 .box{
-    width: calc(100% / 6);
-    height: 100px;
+    width: calc(100% / 7);
+    height: 150px;
     background-image: url("https://picsum.photos/seed/picsum/200/300");
     margin-top: 10px;
     background-size: cover;
     border-radius: 10px;
-    row-gap: 10px;
     position: relative;
 }
 
@@ -54,14 +54,47 @@ header{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: lightgray;
-    border-radius: 5px;
+    background-color: gray;
+    border-radius: 6px;
     padding: 0 10px;
-    margin: 10px;
+    margin: 5px;
+    color: white;
 }
 
 .mic{
-    position: absolute;
+    color: red;
 }
+
+footer{
+    background-color: rgb(43, 43, 43);
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fot-left, .options, .fot-end{
+    display: flex;
+    align-items: center;
+}
+
+.securit, .users, .chat, .share, .pause-rec, .smile, .securit, .mute, .video{
+    color: rgb(128, 128, 128);
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.share-green{
+    color: rgb(112, 187, 0);
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
