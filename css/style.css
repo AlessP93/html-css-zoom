@@ -31,7 +31,7 @@ header{
 }
 
 .container{
-    height: 90vh;
+    height: 110vh;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +48,10 @@ header{
     background-size: cover;
     border-radius: 10px;
     position: relative;
+}
+
+.box-green{
+    border: 4px solid greenyellow;
 }
 
 .name{
